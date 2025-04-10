@@ -28,8 +28,11 @@ for (let i = 0; i < 100; i++) {
       claimsRef.child(i).set(true); // schrijf naar database
     } else {
       alert("Deze plek is al geclaimd!");
+
     }
   });
+  console.log("Script werkt!");
+
 
   map.appendChild(cell);
 }
